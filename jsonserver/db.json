@@ -1,0 +1,440 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Cá kho",
+      "cost": 0.98,
+      "image": "Cá_kho_tộ,_cá_hú.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cá khô",
+      "cost": 1.73,
+      "image": "1200px-Sardinas_salazón-2009.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chả",
+      "cost": 2.93,
+      "image": "Bun_Cha.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dồi",
+      "cost": 1.79,
+      "image": "Dồi.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dưa muối",
+      "cost": 2.66,
+      "image": "1200px-Dưa_muối.JPG"
+    },
+    {
+      "id": 6,
+      "name": "Giò",
+      "cost": 3.33,
+      "image": "Gio_lua_2.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Lòng non",
+      "cost": 1.11,
+      "image": "Tràng_lợn_luộc.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rau muống xào tỏi",
+      "cost": 0.26,
+      "image": "1200px-Rau_muống_xào_tỏi.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Canh chua",
+      "cost": 2.01,
+      "image": "Canhchua2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Ruốc",
+      "cost": 3.15,
+      "image": "Fragrance_Pork_Floss.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Thịt kho",
+      "cost": 0.69,
+      "image": "Thit-kho-tieu-1.jpg"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "Todo List",
+      "fullname": "Todo List",
+      "childof": null,
+      "active": 1,
+      "route": "todolist",
+      "type": "home"
+    },
+    {
+      "id": 2,
+      "name": "Order",
+      "fullname": "Order",
+      "childof": null,
+      "active": 0,
+      "route": "order",
+      "type": "cart"
+    },
+    {
+      "id": 3,
+      "name": "Music Player",
+      "fullname": "Music Player",
+      "childof": null,
+      "active": 0,
+      "route": "music",
+      "type": "music"
+    },
+    {
+      "id": 4,
+      "name": "Widget",
+      "fullname": "Widget",
+      "childof": null,
+      "active": 0,
+      "route": "widget",
+      "type": "widget"
+    },
+    {
+      "id": 5,
+      "name": "Cards",
+      "fullname": "Cards",
+      "childof": 4,
+      "active": 0,
+      "route": "cards",
+      "type": null
+    },
+    {
+      "id": 6,
+      "name": "Basic",
+      "fullname": "Basic Cards",
+      "childof": 5,
+      "active": 0,
+      "route": "basic",
+      "type": null
+    },
+    {
+      "id": 7,
+      "name": "Colored",
+      "fullname": "Colored Cards",
+      "childof": 5,
+      "active": 0,
+      "route": "colored",
+      "type": null
+    },
+    {
+      "id": 8,
+      "name": "No header",
+      "fullname": "No header Cards",
+      "childof": 5,
+      "active": 0,
+      "route": "noheader",
+      "type": null
+    },
+    {
+      "id": 9,
+      "name": "Infobox",
+      "fullname": "Infobox",
+      "childof": 4,
+      "active": 0,
+      "route": "infobox",
+      "type": null
+    },
+    {
+      "id": 10,
+      "name": "Infobox-1",
+      "fullname": "Infobox-1",
+      "childof": 9,
+      "active": 0,
+      "route": "infobox1",
+      "type": null
+    },
+    {
+      "id": 11,
+      "name": "Infobox-2",
+      "fullname": "Infobox-2",
+      "childof": 9,
+      "active": 0,
+      "route": "infobox2",
+      "type": null
+    },
+    {
+      "id": 12,
+      "name": "Infobox-3",
+      "fullname": "Infobox-3",
+      "childof": 9,
+      "active": 0,
+      "route": "infobox3",
+      "type": null
+    },
+    {
+      "id": 13,
+      "name": "Infobox-4",
+      "fullname": "Infobox-4",
+      "childof": 9,
+      "active": 0,
+      "route": "infobox4",
+      "type": null
+    },
+    {
+      "id": 14,
+      "name": "Helper Classes",
+      "fullname": "Helper Classes",
+      "childof": null,
+      "active": 0,
+      "route": "help",
+      "type": "help"
+    },
+    {
+      "id": 15,
+      "name": "Pizza",
+      "fullname": "Pizza Order",
+      "childof": 2,
+      "active": 0,
+      "route": "pizza",
+      "type": null
+    },
+    {
+      "id": 16,
+      "name": "Another Foods",
+      "fullname": "Another Foods Order",
+      "childof": 2,
+      "active": 0,
+      "route": "antfood",
+      "type": null
+    },
+    {
+      "id": 17,
+      "name": "Helper Another",
+      "fullname": "Helper Another",
+      "childof": null,
+      "active": 0,
+      "route": "help1",
+      "type": "help"
+    },
+    {
+      "id": 18,
+      "name": "Context",
+      "fullname": "Context Example",
+      "childof": null,
+      "active": 0,
+      "route": "context",
+      "type": "help"
+    }
+  ],
+  "music": [
+    {
+      "id": 1,
+      "song": "Bản tình cuối",
+      "filename": "Ban tinh cuoi - Quach Thanh Danh.mp3",
+      "artist": "Quách Thành Danh",
+      "author": null,
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "1.txt",
+      "thumb": "13295.jpg"
+    },
+    {
+      "id": 2,
+      "song": "Biết mãi là bao lâu",
+      "filename": "Biet mai la bao lau - Nguyen Ha.mp3",
+      "artist": "Nguyên Hà",
+      "author": null,
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "2.txt",
+      "thumb": "1538469374662.jpg"
+    },
+    {
+      "id": 3,
+      "song": "Can't you feel the love to night",
+      "filename": "Can't you feel the love to night - Elton John.mp3",
+      "artist": "Elton John",
+      "author": "Elton John",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "3.txt",
+      "thumb": "220px-Elton_john-can_you_feel_the_love_tonight.jpg"
+    },
+    {
+      "id": 4,
+      "song": "Circle Of Life (From -The Lion King-)",
+      "filename": "Circle Of Life (From -The Lion King-) - Elton John.mp3",
+      "artist": "Elton John",
+      "author": "Elton John",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "4.txt",
+      "thumb": "Musicals-Forever-Lion-King-English-2017-500x500.jpg"
+    },
+    {
+      "id": 5,
+      "song": "Earth Song",
+      "filename": "Earth Song - Michael Jackson.mp3",
+      "artist": "Michael Jackson",
+      "author": "Michael Jackson",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "5.txt",
+      "thumb": "220px-Earth_Song.jpg"
+    },
+    {
+      "id": 6,
+      "song": "Em đi",
+      "filename": "Em di - Nguyen Ha.mp3",
+      "artist": "Nguyên Hà",
+      "author": "Quốc Bảo",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "6.txt",
+      "thumb": "artworks-000201444468-sdaac1-t500x500.jpg"
+    },
+    {
+      "id": 7,
+      "song": "Em vẫn như ngày xưa",
+      "filename": "Em van nhu ngay xua - Nguyen Ha.mp3",
+      "artist": "Nguyên Hà",
+      "author": "Trần Tiến",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "7.txt",
+      "thumb": "1538469374662.jpg"
+    },
+    {
+      "id": 8,
+      "song": "Khi người lớn cô đơn",
+      "filename": "Khi nguoi lon co don - Pham Hong Phuoc.mp3",
+      "artist": "Phạm Hồng Phước",
+      "author": "Phạm Hồng Phước",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "8.txt",
+      "thumb": "bdcbd838ae9bbb659bedb9e137bd1221_1374744627.jpg"
+    },
+    {
+      "id": 9,
+      "song": "Thanh Xuân",
+      "filename": "Thanh xuan - Da Lab.mp3",
+      "artist": "Dalab",
+      "author": "Dalab",
+      "type": "Pop/Ballad",
+      "listent": 0,
+      "download": 0,
+      "lyric": "9.txt",
+      "thumb": "1535121377317_640.jpg"
+    },
+    {
+      "id": 10,
+      "song": "Lạ",
+      "filename": "Lạ - Phạm Đình Thái Ngân.mp3",
+      "artist": "Phạm Đình Thái Ngân",
+      "author": null,
+      "type": "Nhạc trẻ",
+      "listent": 0,
+      "download": 0,
+      "lyric": "la.txt",
+      "thumb": "8910faa3cbbc9e17adcda9cfecb8c8d7_1423710030.jpg"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 1,
+      "name": "Hand - Tossed Medium",
+      "cost": 8.49,
+      "image": "Pepperoni and Red Peppers, Medium 12, Hand Tossed Crust, $5.99.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hand - Tossed Large",
+      "cost": 10.49,
+      "image": "o.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pan Pizza Personal",
+      "cost": 4.29,
+      "image": "o (1).jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pan Pizza Medium",
+      "cost": 8.49,
+      "image": "pizza-hut-trinidad-and-tobago-pan.png"
+    },
+    {
+      "id": 5,
+      "name": "Pan Pizza Large",
+      "cost": 10.49,
+      "image": "1344-3-large.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Thin N Crispy Medium",
+      "cost": 8.49,
+      "image": "veggie-lovers-1538497115.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Thin N Crispy Large",
+      "cost": 10.49,
+      "image": "59d4f7e7d7605b52008b4a9f-750-562.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Stuffed Crust Large",
+      "cost": 12.49,
+      "image": "stuffed-crust-pepperoni3.png"
+    },
+    {
+      "id": 9,
+      "name": "Skinny Crust Large",
+      "cost": 10.49,
+      "image": "veggie-pizza.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Cheesy Bites Large",
+      "cost": 11.9,
+      "image": "Pizza-Hut-Brings-Back-The-Cheesy-Bites-Pizza-678x381.jpg"
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "todo": "Nghỉ lễ",
+      "status": true
+    },
+    {
+      "id": 3,
+      "todo": "Javascript",
+      "status": true
+    },
+    {
+      "id": 4,
+      "todo": "ReactJS",
+      "status": true
+    },
+    {
+      "todo": "Luyện context",
+      "status": true,
+      "id": 5
+    }
+  ]
+}
